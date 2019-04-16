@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>scw-cli</id>
+    <version>1.19</version>
+    <packageSourceUrl>https://github.com/thorerik/scaleway-cli-choco</packageSourceUrl>
+    <owners>Thor Erik</owners>
+    <title>scaleway-cli (Install)</title>
+    <authors>Scaleway</authors>
+    <projectUrl>https://github.com/scaleway/scaleway-cli</projectUrl>
+    <copyright>Scaleway</copyright>
+    <licenseUrl>https://github.com/scaleway/scaleway-cli/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- MIT, assume acceptance -->
+    <projectSourceUrl>https://github.com/scaleway/scaleway-cli</projectSourceUrl>
+    <tags>scaleway-cli scaleway scw</tags>
+    <summary>Interact with Scaleway API from the command line.</summary>
+    <description>
+    Let's you work against the Scaleway APIs from the command line.
+    See [github](https://github.com/scaleway/scaleway-cli) for usage details
+
+
+    **Please Note**: This is an automatically updated package. If you find it is 
+    out of date by more than a day or two, please contact the maintainer(s) and
+    let them know the package is no longer updating correctly.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
